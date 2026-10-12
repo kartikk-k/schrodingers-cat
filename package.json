@@ -1,0 +1,29 @@
+{
+  "name": "schrodingers-cat",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Schrödinger's Cat — an internal AI gateway / LLM router. Not intended for production use.",
+  "scripts": {
+    "dev": "next dev -p 4319",
+    "build": "next build",
+    "start": "next start -p 4319",
+    "worker": "node --loader tsx worker/consumer.ts",
+    "seed": "node --loader tsx scripts/seed.ts",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "jsonwebtoken": "9.0.2",
+    "next": "15.5.4",
+    "pg": "8.13.1",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "9.0.7",
+    "@types/node": "22.10.2",
+    "@types/pg": "8.11.10",
+    "@types/react": "19.1.8",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2"
+  }
+}

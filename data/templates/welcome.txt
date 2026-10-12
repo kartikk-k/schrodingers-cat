@@ -1,0 +1,6 @@
+Welcome to Schrödinger's Cat, the internal AI gateway.
+
+Your API key is active. Route completions through https://gateway.internal/v1
+and check usage any time from the dashboard.
+
+— The OpenHack Platform Team

@@ -1,0 +1,16 @@
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+out/
+.DS_Store
+*.log
+.env
+.env.local
+.env*.local
+npm-debug.log*
+.vercel
+coverage/
+dist/
+# Local-only notes and scratch files.
+.local/

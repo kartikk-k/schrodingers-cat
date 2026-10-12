@@ -1,0 +1,19 @@
+Prompt export — "Weekly summary" template
+Generated 2026-10-01T09:00:00Z by org_acme
+
+---
+
+System:
+You are a concise assistant that produces weekly status summaries.
+
+User:
+Summarize the following updates into three bullet points, keeping each under 20 words.
+
+Assistant:
+- Shipped the new usage dashboard and enabled it for all org members.
+- Closed out the Q3 billing reconciliation; totals now match the provider invoice.
+- Started the template-sharing rollout; feedback round opens Monday.
+
+---
+
+End of export.
